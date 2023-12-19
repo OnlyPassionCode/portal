@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 1200px;
+    margin: auto;
+}
+header{
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+header h1{
+    text-align: center;
+}
+.projetBanner img{
+    margin-left: 200px;
+    width: 800px;
+    height: 200px;
+    object-fit: cover;
+    background-image: url(../img/banniere_prefo.PNG);
+    border-radius: 10px;
+}
+.projet{
+    position: relative;
+}
+.githubProjet{
+    position: absolute;
+    background-color: rgba(0,0,0);
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    bottom: 14px;
+    left: 936px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: right;
+    transition: transform 0.4s;
+}
+.githubProjet img{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.githubProjet:hover{
+    transform: scale(1.1);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(35,35,35);
+}
